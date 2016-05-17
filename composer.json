@@ -1,0 +1,37 @@
+{
+    "name": "dlds/yii2-summernote",
+    "description": "Yii2 Summernote widget. Super simple WYSIWYG editor on Bootstrap",
+    "version": "0.1.1",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "summernote",
+        "widget",
+        "wysiwyg"
+    ],
+    "homepage": "https://github.com/dlds/yii2-summernote",
+    "time": "2015-03-08",
+    "license": "MIT",
+   
+    "support": {
+        "issues": "https://github.com/dlds/yii2-summernote/issues",
+        "source": "https://github.com/dlds/yii2-summernote"
+    },
+    "require": {
+        "yiisoft/yii2": "~2",
+        "bower-asset/font-awesome": "4.*@stable",
+        "bower-asset/codemirror": "5.*@stable",
+        "bower-asset/summernote": "0.*@stable"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zelenin\\yii\\widgets\\Summernote\\": ""
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
