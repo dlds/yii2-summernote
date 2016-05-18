@@ -1,7 +1,5 @@
 # Yii2 Summernote widget
 
-[Yii2](http://www.yiiframework.com) [Summernote](http://summernote.org) widget. Super simple WYSIWYG editor on Bootstrap
-
 ## Installation
 
 ### Composer

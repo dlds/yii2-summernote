@@ -1,6 +1,6 @@
 <?php
 
-namespace dlds\yii\widgets\Summernote;
+namespace dlds\summernote;
 
 use yii\web\AssetBundle;
 

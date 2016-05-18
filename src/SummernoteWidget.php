@@ -1,13 +1,13 @@
 <?php
 
-namespace dlds\yii\widgets\Summernote;
+namespace dlds\summernote;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;
 
-class Summernote extends InputWidget
+class SummernoteWidget extends InputWidget
 {
     /** @var array */
     private $defaultOptions = ['class' => 'form-control'];

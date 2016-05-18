@@ -1,22 +1,20 @@
 {
     "name": "dlds/yii2-summernote",
-    "description": "Yii2 Summernote widget. Super simple WYSIWYG editor on Bootstrap",
-    "version": "0.1.1",
+    "description": "Yii2 Intercooler extensions",
+    "keywords": ["yii2", "summernote"],
     "type": "yii2-extension",
-    "keywords": [
-        "yii2",
-        "summernote",
-        "widget",
-        "wysiwyg"
-    ],
-    "homepage": "https://github.com/dlds/yii2-summernote",
-    "time": "2015-03-08",
-    "license": "MIT",
-   
+    "license": "BSD",
     "support": {
         "issues": "https://github.com/dlds/yii2-summernote/issues",
+        "wiki": "https://github.com/dlds/yii2-summernote/wiki",
         "source": "https://github.com/dlds/yii2-summernote"
     },
+    "authors": [
+        {
+            "name": "Jiri Svoboda",
+            "email": "jiri.svoboda@dlds.cz"
+        }
+    ],
     "require": {
         "yiisoft/yii2": "~2",
         "bower-asset/font-awesome": "4.*@stable",
@@ -25,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Zelenin\\yii\\widgets\\Summernote\\": ""
+            "dlds\\summernote\\": "src"
         }
     },
     "extra": {

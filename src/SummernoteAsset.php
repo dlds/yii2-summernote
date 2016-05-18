@@ -1,6 +1,6 @@
 <?php
 
-namespace dlds\yii\widgets\Summernote;
+namespace dlds\summernote;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -12,7 +12,7 @@ class SummernoteAsset extends AssetBundle
     /** @var array */
     public $depends = [
         'yii\bootstrap\BootstrapPluginAsset',
-        'dlds\yii\widgets\Summernote\FontawesomeAsset',
+        'dlds\summernote\FontawesomeAsset',
     ];
 
     /**

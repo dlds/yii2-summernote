@@ -1,6 +1,6 @@
 <?php
 
-namespace dlds\yii\widgets\Summernote;
+namespace dlds\summernote;
 
 use Yii;
 use yii\web\AssetBundle;
@@ -13,7 +13,7 @@ class SummernoteLanguageAsset extends AssetBundle
     public $sourcePath = '@bower/summernote/lang';
     /** @var array */
     public $depends = [
-        'dlds\yii\widgets\Summernote\SummernoteAsset'
+        'dlds\summernote\SummernoteAsset'
     ];
 
     /**
